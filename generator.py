@@ -15,7 +15,7 @@ root = Tk()
 root.title('Random Password Generator')
 root.geometry('640x480+500+100')
 root.config(borderwidth= 0)
-p1 = PhotoImage(file= 'Images/5.png')
+p1 = PhotoImage(file= 'img.jpg')
 root.iconphoto(False, p1)
 root.resizable(height= False, width= False)
 
