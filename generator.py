@@ -5,17 +5,17 @@ from tkinter import Tk, Label, Canvas, END, Button, Entry, IntVar, Radiobutton, 
 from tkinter.ttk import Combobox
 
 #Color
-color = "#00b894"
-color1 = '#00060a'
+color = "#CCCCCC"
+color1 = '#334443'
 fg = "#dfe6e9"
-color2 = '#55efc4'
+color2 = '#CCCCCC'
 
 #GUI Window
 root = Tk()
 root.title('Random Password Generator')
 root.geometry('640x480+500+100')
 root.config(borderwidth= 0)
-p1 = PhotoImage(file= 'img.jpg')
+p1 = PhotoImage(file= 'Images/gen.png')
 root.iconphoto(False, p1)
 root.resizable(height= False, width= False)
 
@@ -24,11 +24,11 @@ var= IntVar()
 var1 = IntVar()
 
 #Background
-labelBg = Label(root, bg= '#00060a', bd= 0, highlightthickness= 0, width= 640, height= 480)
+labelBg = Label(root, bg= '#334443', bd= 0, highlightthickness= 0, width= 640, height= 480)
 labelBg.pack()
 
 #Logo
-logo = Image.open('Images/3.png')
+logo = Image.open('Images/gen2.png')
 photoLogo = ImageTk.PhotoImage(logo)
 labelLogo = Label(root, image= photoLogo, bd= 0, highlightthickness= 0)
 labelLogo.place(x= 256, y= 30)
